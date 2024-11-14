@@ -1,0 +1,102 @@
+[
+  {
+    "subject": "Grant Access to Confidential Files",
+    "description": "Grant user access to confidential documents.",
+    "key_phrase": "grant access"
+  },
+  {
+    "subject": "Revoke Access to Sensitive Data",
+    "description": "Revoke user access to sensitive information.",
+    "key_phrase": "revoke access"
+  },
+  {
+    "subject": "Update Access Profile",
+    "description": "Modify my access profile to include admin rights",
+    "key_phrase": "access profile"
+  },
+  {
+    "subject": "Grant Access Request for New Project",
+    "description": "Please grant access to project files for users from our team.",
+    "key_phrase": "grant access"
+  },
+  {
+    "subject": "Access Removal for Departing Employee",
+    "description": "Revoke access for departing employee.",
+    "key_phrase": "revoke access"
+  },
+  {
+    "subject": "Profile Update for New Role",
+    "description": "Update access profile to reflect new job responsibilities.",
+    "key_phrase": "access profile"
+  },
+  {
+    "subject": "Grant Temporary Access",
+    "description": "Grant temporary access to contractor.",
+    "key_phrase": "grant access"
+  },
+  {
+    "subject": "Revoke Admin Access",
+    "description": "Revoke admin access for a user.",
+    "key_phrase": "revoke access"
+  },
+  {
+    "subject": "Access Level Update",
+    "description": "update access profile with more levels for sales team.",
+    "key_phrase": "access profile"
+  },
+  {
+    "subject": "Grant Access Request for Training",
+    "description": "Need to grant access to training materials.",
+    "key_phrase": "grant access"
+  },
+  {
+    "subject": "Access Removal for Inactive Users",
+    "description": "Revoke access for inactive users.",
+    "key_phrase": "revoke access"
+  },
+  {
+    "subject": "Update Access Profile Permissions",
+    "description": "Update access profile with permissions for marketing team.",
+    "key_phrase": "access profile"
+  },
+  {
+    "subject": "Grant Read-Only Access",
+    "description": "Grant read-only access to confidential files.",
+    "key_phrase": "grant access"
+  },
+  {
+    "subject": "Revoke All Access",
+    "description": "Revoke all access for departing employee.",
+    "key_phrase": "revoke access"
+  },
+  {
+    "subject": "Access Profile Update",
+    "description": "Update access profile for new team members.",
+    "key_phrase": "access profile"
+  },
+  {
+    "subject": "Access Request for New Team",
+    "description": "Grant access to team resources.",
+    "key_phrase": "grant access"
+  },
+  {
+    "subject": "Access Removal for Old Projects",
+    "description": "Revoke access to old project files.",
+    "key_phrase": "revoke access"
+  },
+  {
+    "subject": "Update Access Levels",
+    "description": "Update access levels for profile for IT department.",
+    "key_phrase": "access profile"
+  },
+  {
+    "subject": "Grant Special Access",
+    "description": "Grant special access to sensitive data.",
+    "key_phrase": "grant access"
+  },
+  {
+    "subject": "Revoke Access to Old System",
+    "description": "Revoke access to old system for all users.",
+    "key_phrase": "revoke access"
+  }
+]

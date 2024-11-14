@@ -1,0 +1,102 @@
+[
+  {
+    "subject": "Low Disk Space Warning",
+    "description": "Our team's shared drive is running low on disk space.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Disk Full Error",
+    "description": "Receiving disk full error, please increase storage.",
+    "key_phrase": "disk full"
+  },
+  {
+    "subject": "Disk Malfunction",
+    "description": "One of our disks is malfunctioning, causing data loss.",
+    "key_phrase": "disk malfunction"
+  },
+  {
+    "subject": "Increase Storage Capacity",
+    "description": "Request to increase our team's disk storage.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Disk Space Allocation",
+    "description": "Need to allocate more disk space for new project.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Server Disk Full",
+    "description": "Server disk is full, causing system slowdown.",
+    "key_phrase": "disk full"
+  },
+  {
+    "subject": "Disk Failure",
+    "description": "Disk failure caused data loss, need assistance.",
+    "key_phrase": "disk malfunction"
+  },
+  {
+    "subject": "Disk Cleanup Request",
+    "description": "Need assistance cleaning up disk space.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Disk Error Messages",
+    "description": "Receiving disk error messages, please investigate.",
+    "key_phrase": "disk malfunction"
+  },
+  {
+    "subject": "Insufficient Disk Space",
+    "description": "Lack of disk space hindering system performance.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Disk Capacity Upgrade",
+    "description": "Request to upgrade disk capacity.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Disk Full Alert",
+    "description": "Received disk full alert, need immediate attention.",
+    "key_phrase": "disk full"
+  },
+  {
+    "subject": "Data Recovery from Failed Disk",
+    "description": "Need assistance recovering data from failed disk.",
+    "key_phrase": "disk malfunction"
+  },
+  {
+    "subject": "Disk Space Optimization",
+    "description": "Need help optimizing disk space usage.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Server Disk Malfunction",
+    "description": "Server disk malfunction causing system downtime.",
+    "key_phrase": "disk malfunction"
+  },
+  {
+    "subject": "Disk Storage Request",
+    "description": "Need additional disk storage for growing data.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Disk Error Diagnosis",
+    "description": "Need assistance diagnosing disk error.",
+    "key_phrase": "disk malfunction"
+  },
+  {
+    "subject": "Low Disk Space Alert",
+    "description": "Received low disk space alert, need attention.",
+    "key_phrase": "disk space"
+  },
+  {
+    "subject": "Disk Failure Replacement",
+    "description": "Need replacement for failed disk.",
+    "key_phrase": "disk malfunction"
+  },
+  {
+    "subject": "Disk Space Reallocation",
+    "description": "Need to reallocate disk space for new priorities.",
+    "key_phrase": "disk space"
+  }
+]

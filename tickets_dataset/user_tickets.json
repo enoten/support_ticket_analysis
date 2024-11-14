@@ -1,0 +1,102 @@
+[
+  {
+    "subject": "New Employee Onboarding",
+    "description": "Request to add a user for a new employee to system and grant necessary permissions.",
+    "key_phrase": "add user"
+  },
+  {
+    "subject": "Delete Departing Employee user",
+    "description": "Please delete user for Micheal account as he's left the company.",
+    "key_phrase": "delete user"
+  },
+  {
+    "subject": "Delete David's User",
+    "description": "Delete David user as he's left the company.",
+    "key_phrase": "delete user"
+  },
+  {
+    "subject": "Create New User Account",
+    "description": "create a new user account for our intern.",
+    "key_phrase": "create user"
+  },
+  {
+    "subject": "Create new User Account",
+    "description": "create a user profile using known information.",
+    "key_phrase": "create user"
+  },
+  {
+    "subject": "Add User to Group",
+    "description": "Request to add user for John to marketing group.",
+    "key_phrase": "add user"
+  },
+  {
+    "subject": "Delete Inactive User",
+    "description": "Delete all inactive users from system.",
+    "key_phrase": "delete user"
+  },
+  {
+    "subject": "Add User Role",
+    "description": "add a new user for Don's.",
+    "key_phrase": "add user"
+  },
+  {
+    "subject": "Create Temporary User",
+    "description": "Create temporary user account for contractor.",
+    "key_phrase": "create user"
+  },
+  {
+    "subject": "Modify User Account Deactivation",
+    "description": "Modify my user account to be temporarily inactive.",
+    "key_phrase": "modify user"
+  },
+  {
+    "subject": "Add New Admin User",
+    "description": "Request to add new admin user.",
+    "key_phrase": "add user"
+  },
+  {
+    "subject": "Delete Old User Accounts",
+    "description": "delete old user accounts from system.",
+    "key_phrase": "delete user"
+  },
+  {
+    "subject": "modify User Email",
+    "description": "Modify user (me) email address.",
+    "key_phrase": "modify user"
+  },
+  {
+    "subject": "Create User Account for New Hire",
+    "description": "Need to create new user account for recent hire.",
+    "key_phrase": "create user"
+  },
+  {
+    "subject": "Modify User Permission",
+    "description": "Modify permissions for users for the marketing team.",
+    "key_phrase": "modify user"
+  },
+  {
+    "subject": "Add User to Database",
+    "description": "Request to add a user to database.",
+    "key_phrase": "add user"
+  },
+  {
+    "subject": "Delete Duplicate Users",
+    "description": "Delete duplicate users account.",
+    "key_phrase": "delete user"
+  },
+  {
+    "subject": "Modify User Access",
+    "description": "Modify user access levels for sales team.",
+    "key_phrase": "modify user"
+  },
+  {
+    "subject": "Create Test User",
+    "description": "Create test user account for training.",
+    "key_phrase": "create user"
+  },
+  {
+    "subject": "Modify User Account",
+    "description": "Modify my user account by providing more rights",
+    "key_phrase": "modify user"
+  }
+]
