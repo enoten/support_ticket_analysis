@@ -4,9 +4,31 @@ Here Support Ticket Usecase is considered.
 
 The task is to classify the support tickets.
 
+<h2>Dataset</h2>
+
 Support tickets are taken from the <a href="https://huggingface.co/datasets/phi-ai-info/support_tickets">support_ticket dataset</a>.
+
 Dataset can be loaded either from HuggingFace repo or from the json files provided in this repo.
 
+This dataset contains 60 samples. Each tickets resembles a support ticket. 
+Two main fields are subject and description. Subject is a short title for the ticket, 
+while description contains extended description of the issue.
+
+The thrid field is a key_phase, which indicate key phrase of the ticket.
+
+You can all split the entire dataset into thress classes:
+<li> access
+<li> user
+<li> disk
+
+Key phrases for each class are as follows:
+{
+'access': ['grant access', 'revoke access', 'access profile'],
+'user': ['add user', 'delete user', 'modify user','create user'],
+'disk': ['disk space', 'disk error', 'disk full']
+}
+
+<h2>Use case code</h2>
 The code build to work with this dataset is doing following
 <li> load data
 <li> preprocess data
