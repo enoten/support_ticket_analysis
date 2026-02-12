@@ -1,47 +1,75 @@
-<h2>Support Ticket Usecase</h2>
+# Support Ticket Use Case
 
-Here Support Ticket Usecase is considered.
+This project demonstrates **support ticket classification** using multiple machine learning and deep learning approaches.
 
-The task is to classify the support tickets.
+## Dataset
 
-<h2>Dataset</h2>
+Support tickets are taken from the [support_ticket dataset](https://huggingface.co/datasets/phi-ai-info/support_tickets) on Hugging Face.
 
-Support tickets are taken from the <a href="https://huggingface.co/datasets/phi-ai-info/support_tickets">support_ticket dataset</a>.
+- **Source:** Hugging Face repo or JSON files in `tickets_dataset/`
+- **Size:** 60 samples
+- **Fields:**
+  - `subject` — Short title for the ticket
+  - `description` — Extended description of the issue
+  - `key_phrase` — Key phrase indicating the ticket category
 
-Dataset can be loaded either from HuggingFace repo or from the json files provided in this repo.<br>
+### Classes & Key Phrases
 
-This dataset contains 60 samples. Each tickets resembles a support ticket. <br>
-Two main fields are subject and description. Subject is a short title for the ticket, <br>
-while description contains extended description of the issue.<br>
+| Class   | Key Phrases |
+|---------|-------------|
+| access  | grant access, revoke access, access profile |
+| user    | add user, delete user, modify user, create user |
+| disk    | disk space, disk error, disk full |
 
-The thrid field is a key_phase, which indicate key phrase of the ticket.<br>
+## Notebooks
 
-You can all split the entire dataset into thress classes:<br>
-<li> access
-<li> user
-<li> disk
-<br>
-Key phrases for each class are as follows:<br>
-<b>{<br>
-'access': ['grant access', 'revoke access', 'access profile'],<br>
-'user': ['add user', 'delete user', 'modify user','create user'],<br>
-'disk': ['disk space', 'disk error', 'disk full']<br>
-}</b>
+| Notebook | Description |
+|----------|-------------|
+| [support_tickets_problem.ipynb](support_tickets_problem.ipynb) | End-to-end pipeline: load data, embeddings, K-means clustering, n-grams, Logistic Regression, and DNN |
+| [support_tickets_classification.ipynb](support_tickets_classification.ipynb) | Classification pipeline with [video walkthrough](https://www.youtube.com/watch?v=NlJ1yS0F03M) |
+| [support_tickets_finetune_bert_classifier.ipynb](support_tickets_finetune_bert_classifier.ipynb) | Fine-tune BERT Base for support ticket classification |
+| [support_tickets_finetune_bert_classifier_extended.ipynb](support_tickets_finetune_bert_classifier_extended.ipynb) | Extended BERT fine-tuning |
+| [Pre-training and Fine-tuning.ipynb](Pre-training%20and%20Fine-tuning.ipynb) | Pre-training and fine-tuning concepts |
 
-<h2>Use case code</h2>
-The code build to work with this dataset is doing following
-<li> load data
-<li> preprocess data
-<li> create embedding for ticket descriptions
-<li> perform dimensionality reduction 
-<li> analyze ticket description with K-means clustering
-<li> create a list of 2-grams (pairs of words) from the original descriptions
-<li> create embedding collected pairs of words
-<li> analyze pairs of words with K-means clustering
-<li> create generic label for each ticket
-<li> train and evaluate Logistic Regression classifier using Scikit Learn lib
-<li> train and evaluate Deep Neural Network classifier using Keras lib
+## Pipeline (support_tickets_problem.ipynb)
 
-The end-to-end code is introduced in <a href="https://github.com/enoten/support_ticket_analysis/blob/main/support_tickets_problem.ipynb"> support_tickets_problem.ipynb </a><br>
+1. Load data
+2. Preprocess data
+3. Create embeddings for ticket descriptions
+4. Perform dimensionality reduction
+5. Analyze ticket descriptions with K-means clustering
+6. Create 2-grams (word pairs) from descriptions
+7. Create embeddings for word pairs
+8. Analyze word pairs with K-means clustering
+9. Generate generic labels for each ticket
+10. Train and evaluate **Logistic Regression** (Scikit-learn)
+11. Train and evaluate **Deep Neural Network** (Keras)
 
-Happy coding!
+## Dependencies
+
+- pandas
+- matplotlib
+- scikit-learn
+- keras / tensorflow
+- transformers
+- datasets
+- evaluate
+
+## Project Structure
+
+```
+support_ticket_analysis/
+├── tickets_dataset/          # JSON ticket data
+├── support_tickets_problem.ipynb
+├── support_tickets_classification.ipynb
+├── support_tickets_finetune_bert_classifier.ipynb
+├── support_tickets_finetune_bert_classifier_extended.ipynb
+├── Pre-training and Fine-tuning.ipynb
+├── best_model.h5             # Saved Keras model
+└── Support Ticket Use Case slides.pdf
+```
+
+## Resources
+
+- [Support Tickets dataset on Hugging Face](https://huggingface.co/datasets/phi-ai-info/support_tickets)
+- [Support Tickets Automation: clustering and classification (YouTube)](https://www.youtube.com/watch?v=NlJ1yS0F03M)
